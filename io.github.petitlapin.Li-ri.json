@@ -1,7 +1,7 @@
 {
   "id": "io.github.petitlapin.Li-ri",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "23.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "Li-ri",
   "finish-args": [
@@ -9,7 +9,8 @@
     "--share=ipc",
     "--socket=fallback-x11",
     "--socket=wayland",
-    "--device=dri"
+    "--device=dri",
+    "--device=all"
   ],
   "modules": [
     {
@@ -66,7 +67,7 @@
         {
           "type": "git",
           "url": "https://github.com/petitlapin/Li-Ri.git",
-          "commit": "c0be0ae2a12bf9c84ac453820cf1b9d035d4ffcc"
+          "commit": "d7187c24ecdc5de10af3ab326611ec9172e7e9f1"
         }
       ]
     }

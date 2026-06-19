@@ -9,6 +9,13 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --device=all
+cleanup:
+  - /include
+  - /lib/cmake
+  - /lib/pkgconfig
+  - /share/cmake
+  - '*.la'
+  - '*.a'
 modules:
   - name: libmodplug
     sources:
